@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     /// <summary>
-    /// Called before rendering a frame 
+    /// Called once per frame 
     /// </summary>
     void Update()
     {
