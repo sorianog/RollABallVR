@@ -32,8 +32,8 @@ public class PlayerController : MonoBehaviour {
     /// </summary>
     void FixedUpdate()
     {
-        float moveHort = Input.GetAxis("Horizontal");
-        float moveVert = Input.GetAxis("Vertical");
+        float moveHort = Input.GetAxis("Mouse X");
+        float moveVert = Input.GetAxis("Mouse Y");
 
         Vector3 movement = new Vector3(moveHort, 0.0f, moveVert);
 
